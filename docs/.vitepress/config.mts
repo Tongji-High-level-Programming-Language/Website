@@ -2,6 +2,8 @@ import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
+  base: '/Website/', // Base URL for the site, for GitHub Pages
+  lang: 'zh-Hans-CN',
   title: "同济高程",
   description: "同济大学高级语言程序设计课程网站",
   themeConfig: {
