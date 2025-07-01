@@ -9,8 +9,14 @@ export default defineConfig({
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
-      { text: 'Home', link: '/' },
-      { text: 'Examples', link: '/markdown-examples' }
+      { text: '首页', link: '/' },
+      { text: '课程', link: '/syllabus' },
+      { text: '资料', link: '/resources' },
+      { text: '作业', link: '/assignments' },
+      { text: '考试', link: '/exam' },
+      { text: 'FAQ', link: '/faq' },
+      { text: '扩展阅读', link: '/reading' },
+      { text: '联系我们', link: '/contact' }
     ],
 
     sidebar: [
@@ -24,7 +30,7 @@ export default defineConfig({
     ],
 
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
+      { icon: 'github', link: 'https://github.com/Tongji-High-level-Programming-Language/Website' }
     ]
   }
 })
