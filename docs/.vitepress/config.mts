@@ -8,6 +8,10 @@ export default defineConfig({
   description: "同济大学高级语言程序设计课程网站",
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
+    logo: {
+      src: '/Tongji.svg',
+      alt: 'Tongji University'
+    },
     nav: [
       { text: '首页', link: '/' },
       { text: '课程', link: '/syllabus' },
