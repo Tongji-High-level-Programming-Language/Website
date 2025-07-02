@@ -7,7 +7,7 @@ export default defineConfig({
   title: "同济高程",
   description: "同济大学高级语言程序设计课程网站",
   head: [
-    ['link', { rel: 'icon', href: '/Website/favicon.ico' }],
+    ['link', { rel: 'icon', href: '/Website/Tongji.svg' }],
   ],
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
