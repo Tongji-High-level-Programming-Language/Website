@@ -11,6 +11,10 @@ export default defineConfig({
   ],
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
+    footer: {
+      message: '本站全部内容在<a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh-hans">知识共享 署名-非商业性使用-相同方式共享 4.0 协议</a>之条款下提供',
+      copyright: '©2025 同济大学 版权所有'
+    },
     logo: {
       src: '/Tongji.svg',
       alt: 'Tongji University'
