@@ -12,7 +12,7 @@ hero:
       link: /markdown-examples
     - theme: alt
       text: 学会提问
-      link: /api-examples
+      link: /ask-question
 
 features:
   - title: Logic-构建计算思维的基石
