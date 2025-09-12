@@ -1,5 +1,12 @@
 import { defineConfig } from 'vitepress'
 
+// From: https://www.afunny.top/vitepress-search
+// 自定义分词函数
+function customTokenizer(text: string): string[] {
+  // 去除空格，每个字分词
+  return Array.from(new Intl.Segmenter('cn', { granularity: 'word' }).segment(text.replace(/ /g, ''))).map(item => item.segment)
+}
+
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   base: '/Website/', // Base URL for the site, for GitHub Pages
@@ -43,6 +50,38 @@ export default defineConfig({
 
     socialLinks: [
       { icon: 'github', link: 'https://github.com/Tongji-High-level-Programming-Language/Website' }
-    ]
+    ],
+
+    search: {
+      provider: 'local',
+      options: {
+        locales: {
+          root: {
+            translations: {
+              button: {
+                buttonText: '搜索',
+                buttonAriaLabel: '搜索'
+              },
+              modal: {
+                displayDetails: '显示详细列表',
+                resetButtonTitle: '重置搜索',
+                backButtonTitle: '关闭搜索',
+                noResultsText: '没有结果',
+                footer: {
+                  selectText: '选择',
+                  navigateText: '导航',
+                  closeText: '关闭',
+                }
+              }
+            }
+          }
+        },
+        miniSearch: {
+          options: {
+            tokenize: customTokenizer
+          }
+        }
+      }
+    }
   }
 })
