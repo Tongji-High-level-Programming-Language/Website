@@ -95,4 +95,4 @@ jobs:
           remote_key: ${{ secrets.KEY }}
           remote_port: ${{ secrets.SERVER_PORT}}
           remote_key_pass: ${{ secrets.PASSPHRASE }}
-          switches: -avrz --delete --mkpath
+          switches: -avrz --delete
