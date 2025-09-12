@@ -2,7 +2,7 @@
 
 ## 课本
 
-[C++ Primer Plus（第6版）中文版](/public/textbook.pdf)
+[C++ Primer Plus（第6版）中文版](/textbook.pdf)
 
 ## 课件
 
