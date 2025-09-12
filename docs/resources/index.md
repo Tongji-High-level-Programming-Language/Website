@@ -1,1 +1,8 @@
-# 课程资料
+# 课程资源
+
+## 课本
+
+[C++ Primer Plus（第6版）中文版](/public/textbook.pdf)
+
+## 课件
+

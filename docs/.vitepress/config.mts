@@ -22,7 +22,7 @@ export default defineConfig({
     nav: [
       { text: '首页', link: '/' },
       { text: '课程', link: '/syllabus' },
-      { text: '资料', link: '/resources' },
+      { text: '资源', link: '/resources' },
       { text: '作业', link: '/assignments' },
       { text: '考试', link: '/exam' },
       { text: 'FAQ', link: '/faq' },
