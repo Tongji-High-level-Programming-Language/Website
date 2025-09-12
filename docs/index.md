@@ -8,11 +8,14 @@ hero:
   tagline: "Unlock the World of Code"
   actions:
     - theme: brand
-      text: 快速开始
-      link: /markdown-examples
+      text: 开始学习
+      link: /getting-started
     - theme: alt
       text: 学会提问
       link: /ask-question
+    - theme: alt
+      text: FAQ
+      link: /faq
 
 features:
   - title: Logic-构建计算思维的基石
