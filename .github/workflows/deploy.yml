@@ -89,10 +89,10 @@ jobs:
       - name: Deploy to Server via SSH
         uses: burnett01/rsync-deployments@7.1.0
         with:
-          remote_path: /home/httpd/hlp-website/Website
+          remote_path: /home/httpd/hlp-website/Website/
           remote_host: ${{ secrets.SERVER_HOST}}
           remote_user: ${{ secrets.USERNAME }}
           remote_key: ${{ secrets.KEY }}
           remote_port: ${{ secrets.SERVER_PORT}}
           remote_key_pass: ${{ secrets.PASSPHRASE }}
-          switches: -avrz --delete --mkdir
+          switches: -avrz --delete --mkpath
