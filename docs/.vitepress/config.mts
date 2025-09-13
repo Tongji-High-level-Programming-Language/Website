@@ -39,12 +39,24 @@ export default defineConfig({
 
     sidebar: [
       {
+        text: '课程介绍',
+        link: '/syllabus',
+      },
+      {
         text: '开始学习',
-        link: '/getting-started', 
+        link: '/getting-started/', 
+      },
+      {
+        text: '学会提问',
+        link: '/ask-question/',
       },
       {
         text: '常见问题',
-        link: '/faq',
+        link: '/faq/',
+      },
+      {
+        text: '扩展阅读',
+        link: '/reading/',
       }
     ],
 
