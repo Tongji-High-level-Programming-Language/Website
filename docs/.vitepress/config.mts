@@ -47,6 +47,10 @@ export default defineConfig({
         link: '/getting-started/', 
       },
       {
+        text: '学会提问',
+        link: '/ask-question/',
+      },
+      {
         text: '常见问题',
         link: '/faq/',
       },
