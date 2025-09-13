@@ -40,7 +40,7 @@ export default defineConfig({
     sidebar: [
       {
         text: '课程介绍',
-        link: '/syllabus/',
+        link: '/syllabus',
       },
       {
         text: '开始学习',
