@@ -53,7 +53,7 @@
 + [Visual Studio 2022 的安装与配置](setup/01/)
 + [用 VS2022 编译 C++ 程序](setup/02/)
 + [Dev-C++的安装、汉化与配置(Ver 5.11 TDM GCC 9.2.0 特别版本)](setup/03/)
-+ [用Dev-C++编译已在 VS2022 下通过的C++程序](setup/04)
++ [用Dev-C++编译已在 VS2022 下通过的C++程序](setup/04/)
 
 ## 完成准备
 

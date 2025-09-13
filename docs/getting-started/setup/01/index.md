@@ -189,7 +189,7 @@ prev:
 ![扩展安装完成](025-扩展安装完成.png)
 
 ::: tip
-如果插件安装不成功，可以直接双击打开 [FileEncoding.vsix](/FileEncoding.vsix) 进行安装。
+如果插件安装不成功，可以直接双击打开 <a href="/Website/FileEncoding.vsix" target="_self">FileEncoding.vsix</a> 进行安装。
 
 :::
 
