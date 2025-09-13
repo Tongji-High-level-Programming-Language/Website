@@ -1,1 +1,1 @@
-# placeholder
+# Dev-C++的安装、汉化与配置(Ver 5.11 TDM GCC 9.2.0 特别版本)

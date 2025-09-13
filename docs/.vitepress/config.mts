@@ -41,10 +41,24 @@ export default defineConfig({
       {
         text: '课程介绍',
         link: '/syllabus',
-      },
+        items: [
+          { text: '课程政策', link: '/syllabus#课程政策' },
+          { text: '教材与课程资源', link: '/syllabus#教材与课程资源' },]
+        },
       {
         text: '开始学习',
-        link: '/getting-started/', 
+        link: '/getting-started/',
+        items: [
+          { text: '预备知识', link: '/getting-started/#预备知识' },
+          { text: '学习用电脑', link: '/getting-started/#学习用电脑' },
+          { text: '环境配置', link: '/getting-started/#环境配置', items: [
+            { text: 'Visual Studio 2022 的安装与配置', link: '/getting-started/setup/01/' },
+            { text: '用 VS2022 编译 C++ 程序', link: '/getting-started/setup/02/' },
+            { text: 'Dev-C++ 的安装、汉化与配置(Ver 5.11 TDM GCC 9.2.0 特别版本)', link: '/getting-started/setup/03/' },
+            { text: '用 Dev-C++ 编译已在 VS2022 下通过的 C++ 程序', link: '/getting-started/setup/04/' },
+          ] },
+          { text: '完成准备', link: '/getting-started/#完成准备' },
+        ],
       },
       {
         text: '学会提问',
