@@ -8,7 +8,7 @@
 
 ## 文档
 
-[开始学习](/getting-started)
+[开始学习](/getting-started/)
 
 ## 杂项文件
 
