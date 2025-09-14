@@ -41,3 +41,17 @@
 
 官方提供的 [入门资料合集](https://wiki.python.org/moin/BeginnersGuide/NonProgrammersChinese) 与 [中文教程](https://docs.python.org/zh-cn/3/tutorial/index.html) 质量都非常不错。
 加州伯克利大学面向新生的著名课程 [CS61A](https://cs61a.org/) 同样可以用来学习 Python（尽管其教学内容远不止于语言入门）。
+
+## 关于编译器、编辑器和IDE的区别
+
+**编译器**是一个工具，可以理解为“翻译器”，用于将程序员写出的代码转换成CPU能够执行的二进制指令，也就是**将代码加工成 exe 程序**，编译器可以理解为一种特殊的exe可执行文件。
+典型的编译器是gcc和g++，分别用于编译c语言代码和c++语言代码，你可以在dev-cpp安装的文件夹中找到它（如果默认路径安装的话是`C:\Program Files (x86)\Dev-Cpp\MinGW64\bin`）
+编译器能够识别代码中的词汇、句子以及各种特定的格式，并将他们转换成计算机能够识别的二进制形式，这个过程称为编译（compile）。
+
+**编辑器**是用于**编写代码的文本编辑器**，windows自带的记事本软件就是一种编辑器，~~word也是一种编辑器~~，常用的编辑器一般会提供自动缩进，语法高亮等功能。
+典型的编辑器是Visual Studio Code，在不进行任何配置的情况下，它只能用来写代码，而不能进行诸如编译或调试的操作。
+
+**IDE**是**集成开发环境**（integrated development environment）的缩写，将编辑器、编译器、调试器、版本控制系统等工具集于一身，是一系列开发工具的组合套装。
+典型的IDE是Visual Studio和Dev-cpp，两者都具备了编辑，编译，调试功能的集成，VS在此基础上还有版本控制，智能提示，代码补全等更多功能。可以大幅提升开发效率。
+
+三者各司其职又相互协作：程序员在编辑器中编写代码，通过编译器转换为可执行文件，而IDE将这一流程无缝集成，提供一站式开发体验，更多内容可参考[什么是编译器？什么是集成开发环境？](https://zhuanlan.zhihu.com/p/87082118)和[什么是ide？](https://www.codecademy.com/article/what-is-ide)
