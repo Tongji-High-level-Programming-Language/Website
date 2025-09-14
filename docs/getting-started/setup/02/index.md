@@ -234,12 +234,13 @@ outline: [2, 3]
 
 ### 目录结构说明
 
-条件1：“homework”解决方案，目录为 `D:\homework`
+若：
 
-条件2：“homework”解决方案中有“helloworld”和“myinfo”两个项目
+- “homework”解决方案，目录为 `D:\homework`
+- “homework”解决方案中有“helloworld”和“myinfo”两个项目
+- “helloworld”项目中建立的源文件为 `helloworld.cpp` ，“myinfo”项目中建立的源文件为 `myinfo.cpp`
+- `helloworld.cpp` 和 `myinfo.cpp` 分别被编译成可执行文件 `helloworld.exe` 和 `myinfo.exe`
 
-条件3：“helloworld”项目中建立的源文件为 `helloworld.cpp` ，“myinfo”项目中建立的源文件为 `myinfo.cpp`
-
-条件4： `helloworld.cpp` 和 `myinfo.cpp` 分别被编译成可执行文件 `helloworld.exe` 和 `myinfo.exe`
+则有：
 
 ![29](029.png)
