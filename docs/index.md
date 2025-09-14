@@ -9,13 +9,13 @@ hero:
   actions:
     - theme: brand
       text: 开始学习
-      link: /getting-started
+      link: /getting-started/
     - theme: alt
       text: 学会提问
-      link: /ask-question
+      link: /ask-question/
     - theme: alt
       text: FAQ
-      link: /faq
+      link: /faq/
 
 features:
   - title: Logic-构建计算思维的基石

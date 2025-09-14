@@ -28,22 +28,22 @@ export default defineConfig({
     },
     nav: [
       { text: '首页', link: '/' },
-      { text: '课程', link: '/syllabus' },
-      { text: '资源', link: '/resources' },
-      { text: '作业', link: '/assignments' },
+      { text: '课程', link: '/syllabus/' },
+      { text: '资源', link: '/resources/' },
+      { text: '作业', link: '/assignments/' },
       { text: '考试', link: '/exam' },
-      { text: 'FAQ', link: '/faq' },
-      { text: '扩展阅读', link: '/reading' },
+      { text: 'FAQ', link: '/faq/' },
+      { text: '扩展阅读', link: '/reading/' },
       { text: '联系我们', link: '/contact' }
     ],
 
     sidebar: [
       {
         text: '课程介绍',
-        link: '/syllabus',
+        link: '/syllabus/',
         items: [
-          { text: '课程政策', link: '/syllabus#课程政策' },
-          { text: '教材与课程资源', link: '/syllabus#教材与课程资源' },]
+          { text: '课程政策', link: '/syllabus/#课程政策' },
+          { text: '教材与课程资源', link: '/syllabus/#教材与课程资源' },]
         },
       {
         text: '开始学习',
