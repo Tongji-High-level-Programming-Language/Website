@@ -84,6 +84,21 @@ outline: [2, 3]
 
 ![10](010.png)
 
+``` cpp
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    cout << "Hello, 同济大学!" << endl;
+    return 0;
+}
+```
+
+::: tip
+第 6 行的 `endl` 的最后一个字符为小写字母 l，而非数字 1。`endl` 为“end of line”的缩写，用于在输出时换行。
+:::
+
 ### 第 9 步：确认右下角两个设置是否“SYS-简体中文(GB2312)”和“CRLF”
 
 > [!IMPORTANT]

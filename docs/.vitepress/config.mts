@@ -16,6 +16,9 @@ export default defineConfig({
   head: [
     ['link', { rel: 'icon', href: '/Website/Tongji.svg' }],
   ],
+  markdown: {
+    lineNumbers: true
+  },
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     footer: {
