@@ -16,6 +16,7 @@ export default defineConfig({
   head: [
     ['link', { rel: 'icon', href: '/Website/Tongji.svg' }],
   ],
+  lastUpdated: true,
   markdown: {
     lineNumbers: true
   },
