@@ -27,3 +27,13 @@
 
 [附件 1：IEEE754相关知识](/25261-020102-W0201.附件1%20IEEE754相关知识.pdf)  
 [附件 2：小工具-将二进制小数转换为十进制](/25261-020102-W0201.附件2%20将二进制小数转换为十进制.exe)
+
+<script setup>
+import BinaryConverter from "./BinaryConverter.vue"
+</script>
+
+### 小工具-将二进制小数转换为十进制
+
+::: raw
+<BinaryConverter />
+:::

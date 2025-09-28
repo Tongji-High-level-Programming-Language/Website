@@ -1,4 +1,5 @@
 import { defineConfig } from 'vitepress'
+import tailwindcss from '@tailwindcss/vite'
 
 // From: https://www.afunny.top/vitepress-search
 // 自定义分词函数
@@ -68,8 +69,7 @@ export default defineConfig({
         text: '作业',
         link: '/assignments/',
         items: [
-          { text: '第一周', link: '/assignments/week1' },
-          { text: '第二周', link: '/assignments/week2' },
+          { text: '第一周', link: '/assignments/#第一周' },
         ]
       },
       {
@@ -121,5 +121,11 @@ export default defineConfig({
         }
       }
     }
+  },
+  vite: {
+    plugins: [
+      tailwindcss(),
+    ]
   }
 })
+
