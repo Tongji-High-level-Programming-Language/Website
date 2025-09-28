@@ -69,7 +69,8 @@ export default defineConfig({
         text: '作业',
         link: '/assignments/',
         items: [
-          { text: '第一周', link: '/assignments/#第一周' },
+          { text: '第一周', link: '/assignments/week1' },
+          { text: '第二周', link: '/assignments/week2' },
         ]
       },
       {
