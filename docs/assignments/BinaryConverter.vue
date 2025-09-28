@@ -39,7 +39,7 @@ function computeBinaryToDecimal(binaryStr: string): string | null {
 </script>
 
 <template>
-    <div class="p-4 bg-gray-50 rounded-md">
+    <div class="mt-8 p-4 bg-gray-50 rounded-md">
         <div class="mb-4">
             <label for="number_input" class="block text-sm font-medium text-gray-700 mb-2">
                 输入一个二进制纯小数
