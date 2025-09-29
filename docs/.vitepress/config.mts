@@ -38,6 +38,7 @@ export default defineConfig({
       { text: '作业', link: '/assignments/' },
       { text: '考试', link: '/exam' },
       { text: 'FAQ', link: '/faq/' },
+      { text: '参考图表', link: '/tables/'},
       { text: '扩展阅读', link: '/reading/' },
       { text: '联系我们', link: '/contact' }
     ],
@@ -80,6 +81,10 @@ export default defineConfig({
       {
         text: '常见问题',
         link: '/faq/',
+      },
+      {
+        text: '参考图表',
+        link: '/tables/',
       },
       {
         text: '扩展阅读',
