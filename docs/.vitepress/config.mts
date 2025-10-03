@@ -1,5 +1,6 @@
 import { defineConfig } from 'vitepress'
 import tailwindcss from '@tailwindcss/vite'
+import markdownItFootnote from 'markdown-it-footnote'
 
 // From: https://www.afunny.top/vitepress-search
 // 自定义分词函数
@@ -19,7 +20,15 @@ export default defineConfig({
   ],
   lastUpdated: true,
   markdown: {
-    lineNumbers: true
+    config: (md) => {
+      md.use(markdownItFootnote);
+      md.renderer.rules.footnote_block_open = () => (
+        '<h3>附注</h3>\n' +
+        '<section class="footnotes">\n' +
+        '<ol class="footnotes-list">\n'
+      );
+    },
+    lineNumbers: true,
   },
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config

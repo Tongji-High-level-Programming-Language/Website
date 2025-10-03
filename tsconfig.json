@@ -1,10 +1,17 @@
 {
   "include": [
     "docs/**/*.ts",
+    "docs/.vitepress/config.mts",
     "docs/**/*.vue",
     "docs/**/*.md",
   ],
   "vueCompilerOptions": {
     "vitePressExtensions": [".md"],
   },
+  "compilerOptions": {
+    "target": "ESNext",
+    "module": "nodenext",
+    "moduleResolution": "nodenext",
+    "lib": ["ESNext", "dom"]
+  }
 }
