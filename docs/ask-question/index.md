@@ -65,7 +65,7 @@ int main()
     if (a > 10) {
         cin >> b;
     }
-    // [!code error] 错误：若 a > 10，则 b 未被初始化
+    // [!code error] 错误：若 a <= 10，则 b 未被初始化
     cout << a + b; 
     return 0;
 }
